@@ -23,7 +23,7 @@ Use the following commands in your terminal to clone the repository and build/ru
 Clone the project to your local machine:
 
 ```bash
-git clone [https://github.com/your-username/your-repository-name.git](https://github.com/your-username/your-repository-name.git)
+git clone https://github.com/kirankumare25/coleme.git
 cd your-repository-name
 
 docker build -t jcole-app .
