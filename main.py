@@ -6,7 +6,7 @@ def cole_verse():
     client = genai.Client(api_key="YOUR_API_KEY")
 
     response = client.models.generate_content(
-        model="gemini-2.5-flash", contents="Give me a Jcole verse very short but keep it short and don't say it here is the short onee"
+        model="gemini-2.5-flash", contents="Give me a Jcole verse very short but keep it short and don't say it here is the short one"
     )
 
     return response.text
